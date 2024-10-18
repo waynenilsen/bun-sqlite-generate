@@ -1,0 +1,17 @@
+{
+  "name": "bun-sqlite-generate",
+  "module": "generator.ts",
+  "type": "module",
+  "bin": "generator.ts",
+  "author": "Wayne Nilsen",
+  "license": "MIT",
+  "repository": "https://github.com/waynenilsen/bun-sqlite-generate",
+  "homepage": "https://github.com/waynenilsen/bun-sqlite-generate",
+  "bugs": "https://github.com/waynenilsen/bun-sqlite-generate/issues",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
