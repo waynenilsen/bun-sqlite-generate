@@ -1,5 +1,7 @@
 {
   "name": "bun-sqlite-generate",
+  "version": "0.0.2",
+  "description": "TypeScript interface and CRUD function generator for SQLite schemas in Bun projects.",
   "module": "generator.ts",
   "type": "module",
   "bin": "generator.ts",
@@ -13,5 +15,17 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "scripts": {
+    "bump-and-publish": "bun ./bump-version.ts && bun publish"
+  },
+  "keywords": [
+    "sqlite",
+    "typescript",
+    "bun",
+    "orm",
+    "crud",
+    "generator",
+    "interface"
+  ]
 }
